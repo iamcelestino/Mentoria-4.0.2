@@ -17,9 +17,6 @@ swiper = new Swiper(".videoSlide", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    pagination: {
-      el: ".swiper-pagination",
-    },
     breakpoints: {
       640: {
         slidesPerView: 1,

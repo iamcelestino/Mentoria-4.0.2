@@ -4,7 +4,7 @@
 
 @layer base {
     html {
-      font-family: "Roboto", sans-serif;
+      font-family: "Montserrat", sans-serif;
     }
   }
 
@@ -101,4 +101,17 @@
         display: none;
       }
 
+}
+
+@layer utilities {
+  .gradient {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(1, 1, 53);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    object-fit: cover;
+    }
 }
