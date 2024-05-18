@@ -8,6 +8,18 @@
     }
   }
 
+  @layer {
+    .active {
+      max-width: 300px;
+    }
+  }
+
+  @layer {
+    img {
+      max-width: 100%;
+    }
+  }
+
   @layer utilities {
     .custom-underline::after {
       content: "";

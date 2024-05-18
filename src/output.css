@@ -797,14 +797,14 @@ html {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
-}
-
 .border-gray-700 {
   --tw-border-opacity: 1;
   border-color: rgb(55 65 81 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-t-white {
@@ -1169,6 +1169,16 @@ html {
   opacity: 0.5;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@layer {
+  .active {
+    max-width: 300px;
+  }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 .hover\:scale-105:hover {
