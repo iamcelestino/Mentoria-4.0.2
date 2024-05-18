@@ -8,13 +8,25 @@
     }
   }
 
+  @layer utilities {
+    .custom-underline::after {
+      content: "";
+      width: 100%;
+      height: 20px;
+      background-image: url(./imagens/wave\ \(2\).svg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  }
+
 
   @layer utilities {
     .shadow-lg {
-     filter:  drop-shadow(2px 2px 3px rgb(0, 157, 255))
-              drop-shadow(2px -2px 3px rgb(0, 157, 255))
-              drop-shadow(2px 2px 3px rgb(0, 157, 255))
-              drop-shadow(-2px 2px 3px rgb(0, 157, 255));
+     filter:  drop-shadow(2px 1px 1px rgb(77, 184, 251))
+              drop-shadow(2px -1px 1px rgb(77, 184, 251))
+              drop-shadow(2px 1px 1px rgb(77, 184, 251))
+              drop-shadow(-2px 1px 1px rgb(77, 184, 251));
       transition: all .2s cubic-bezier(0.04, 0.24, 0.15, 1);
     }
   }
